@@ -19,75 +19,76 @@
 :root {
     --bgColor: #2386C8;
 
-  }
-  
-  body {
+}
+
+body {
     padding: 0;
     margin: 0;
-  box-sizing: border-box;
-  }
-  
-  /****END BASIC*****/
-  
-  /***HELPERS***/
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+    box-sizing: border-box;
+}
+
+/****END BASIC*****/
+
+/***HELPERS***/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Tajawal', sans-serif;
-  }
-  
-  h1.font,
-  h2.font,
-  h3.font,
-  h4.font,
-  h5.font,
-  h6.font,
-  span.font,
-  p.font {
+}
+
+h1.font,
+h2.font,
+h3.font,
+h4.font,
+h5.font,
+h6.font,
+span.font,
+p.font {
     font-weight: 600 !important;
-  }
-  
-  a,
-  a:hover,
-  a:focus,
-  button {
+}
+
+a,
+a:hover,
+a:focus,
+button {
     text-decoration: none !important;
     outline: none !important;
-  }
+}
 
-  .bg-primary{
+.bg-primary {
     background-color: var(--bgColor) !important;
-  }
+}
 
-.nav-link:hover{
-    background-color: rgb(44, 171, 227,.5);
-   
-  }
-  
-  
-  /*****END HELPERS***/
+.nav-link:hover {
+    background-color: rgb(44, 171, 227, .5);
+
+}
 
 
-  /****Bootstrap Editor ****/
+/*****END HELPERS***/
 
-.navbar-toggler:focus{
+
+/****Bootstrap Editor ****/
+
+.navbar-toggler:focus {
     box-shadow: none !important;
-  }
+}
 
 
-  /****Bootstrap Editor ******/
+/****Bootstrap Editor ******/
 
 
-  /***START HERO SECTION ***/
-#hero{
+/***START HERO SECTION ***/
+#hero {
     background-image: url('./../images/Hero-Bg.jpg');
     height: 700px;
     position: relative;
 }
-#hero .overlay{
+
+#hero .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -99,35 +100,44 @@
 }
 
 
-#hero .hero-content{
+#hero .hero-content {
     position: absolute;
     color: #fff;
     z-index: 2;
-    top:50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 
-#hero .hero-content__bottom .form-control{
+#hero .hero-content__bottom .form-control {
     border-radius: 0px !important;
     outline: none !important;
     text-indent: 5px;
-    
+
 }
 
-#hero .hero-content__bottom .form-control:focus{
+#hero .hero-content__bottom .form-control:focus {
 
     outline: none !important;
     box-shadow: none;
 }
 
-#hero .hero-content__bottom button{
+#hero .hero-content__bottom button {
+    border-radius: 0px;
+}
+
+#hero .hero-content__botton a {
+    color: #fff;
     border-radius: 0px;
 }
 
 
+#hero .hero-content__botton a:hover {
+    background-color: #fff;
+    color: #2386C8;
+}
 
 
-  /***END HERO SECTION ***/ 
-  
+
+/***END HERO SECTION ***/
