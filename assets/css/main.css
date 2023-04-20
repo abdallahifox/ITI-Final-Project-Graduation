@@ -1,26 +1,17 @@
 /*  
---------------------------------------------------------------
-*  Theme Name: App Lab - Responsive Landing Template             *
-*  Author: Abdallah                                              *
-*  Version: 1.0.0                                                *
-*  Created: 2023                                         *
-*  File Description: Main css file of the template               *
---------------------------------------------------------------
+-----------------------------------------------------------------------
+*  Theme Name: Mostaqel - Responsive FreeLancing Platforme Template   *
+*  Author: Group -3                                                   * 
+*  Version: 1.0.0                                                     *
+*  Created: 2023                                                      *
+*  File Description: Main css file of the template                    *
+-----------------------------------------------------------------------
 */
 
 /***************
 1.BASIC
 2.HELPER
-3.NAVBAR SECTION
-4.HERO SECTION
-5.BRAND SECTION
-6.AWESOME SECTION
-7.SMART SECTION
-8.NETWORK SECTION
-9.DESIGN AND BUILD SECTION
-10.WHY WE SHOULD USE SECTION
-11.DOWNLOAD SECTION
-12.FOOTER
+3.Boostrap Editor
 *****************/
 
 /***BASIC**/
@@ -69,7 +60,22 @@
   .bg-primary{
     background-color: var(--bgColor) !important;
   }
+
+.nav-link:hover{
+    background-color: rgb(44, 171, 227,.5);
+   
+  }
   
   
   /*****END HELPERS***/
+
+
+  /****Bootstrap Editor ****/
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
+  }
+
+
+  /****Bootstrap Editor ******/
   
