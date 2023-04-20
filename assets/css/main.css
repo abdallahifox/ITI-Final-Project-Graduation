@@ -1,0 +1,75 @@
+/*  
+--------------------------------------------------------------
+*  Theme Name: App Lab - Responsive Landing Template             *
+*  Author: Abdallah                                              *
+*  Version: 1.0.0                                                *
+*  Created: 2023                                         *
+*  File Description: Main css file of the template               *
+--------------------------------------------------------------
+*/
+
+/***************
+1.BASIC
+2.HELPER
+3.NAVBAR SECTION
+4.HERO SECTION
+5.BRAND SECTION
+6.AWESOME SECTION
+7.SMART SECTION
+8.NETWORK SECTION
+9.DESIGN AND BUILD SECTION
+10.WHY WE SHOULD USE SECTION
+11.DOWNLOAD SECTION
+12.FOOTER
+*****************/
+
+/***BASIC**/
+:root {
+    --bgColor: #2386C8;
+
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  box-sizing: border-box;
+  }
+  
+  /****END BASIC*****/
+  
+  /***HELPERS***/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Tajawal', sans-serif;
+  }
+  
+  h1.font,
+  h2.font,
+  h3.font,
+  h4.font,
+  h5.font,
+  h6.font,
+  span.font,
+  p.font {
+    font-weight: 600 !important;
+  }
+  
+  a,
+  a:hover,
+  a:focus,
+  button {
+    text-decoration: none !important;
+    outline: none !important;
+  }
+
+  .bg-primary{
+    background-color: var(--bgColor) !important;
+  }
+  
+  
+  /*****END HELPERS***/
+  
