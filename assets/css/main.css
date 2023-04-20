@@ -11,7 +11,8 @@
 /***************
 1.BASIC
 2.HELPER
-3.Boostrap Editor
+3.BOOTSTRAP EDITOR
+4.HERO SECTION
 *****************/
 
 /***BASIC**/
@@ -78,4 +79,55 @@
 
 
   /****Bootstrap Editor ******/
+
+
+  /***START HERO SECTION ***/
+#hero{
+    background-image: url('./../images/Hero-Bg.jpg');
+    height: 700px;
+    position: relative;
+}
+#hero .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .6;
+    z-index: 1;
+}
+
+
+#hero .hero-content{
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+#hero .hero-content__bottom .form-control{
+    border-radius: 0px !important;
+    outline: none !important;
+    text-indent: 5px;
+    
+}
+
+#hero .hero-content__bottom .form-control:focus{
+
+    outline: none !important;
+    box-shadow: none;
+}
+
+#hero .hero-content__bottom button{
+    border-radius: 0px;
+}
+
+
+
+
+  /***END HERO SECTION ***/ 
   
