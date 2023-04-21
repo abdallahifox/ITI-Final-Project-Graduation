@@ -1,4 +1,48 @@
+
+
+/*****START PROGRESS *****/
 #control-pannel{
     padding: 50px 0px;
     background-color: #f0f0f0
 }
+
+.progress__bars .progress__bar{
+    display: block;
+    color: #575858;
+}
+
+.progress--slim{
+    box-shadow: none;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+
+.pull-right{
+    float: right!important;
+}
+
+.pull-left{
+    float: left!important;
+}
+
+.label-open{
+    background-color: #2e8b57;
+}
+
+.label-completed{
+    background-color: #314459;
+}
+.label-in-progress{
+    background-color: rgb(14, 128, 241);
+}
+
+.label-rejected{
+    background-color: rgb(180, 24, 24);
+}
+
+
+
+
+/******END PROGRESSS ****/
