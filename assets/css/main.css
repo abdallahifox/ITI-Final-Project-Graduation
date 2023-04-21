@@ -15,8 +15,9 @@
 4.HERO SECTION
 5.HELP SECTION
 6.MOSTAQEL HELP
-7.READY SECTION
-8.ASK SECTION
+7.GET FREELANCERS SECTION
+8.READY SECTION
+9.ASK SECTION
 *****************/
 
 /***BASIC**/
@@ -209,6 +210,24 @@ button {
 
 
 /******END MOSTAQEL HELP SECTION*******/
+
+/***START GET FREELANCERS SECTION****/
+
+#freelancers{
+    padding: 50px 0px;
+    background-color: #F9F9F9;
+}
+
+#freelancers .btn-project{
+    color: #333;
+}
+
+#freelancers .btn-project:hover{
+    color: var(--textColor);
+}
+
+
+/******END GET FREELANCERS SECTION*******/
 
 /***START READY SECTION****/
 
