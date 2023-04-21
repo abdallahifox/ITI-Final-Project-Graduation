@@ -18,6 +18,7 @@
 7.GET FREELANCERS SECTION
 8.READY SECTION
 9.ASK SECTION
+10.FOOTER SECTION
 *****************/
 
 /***BASIC**/
@@ -298,3 +299,13 @@ button {
     padding: 0 0 1rem;
 }
 /******END ASK SECTION*******/
+
+
+
+/******START FOOTER****/
+#footer{
+    padding: 10px 0px;
+    background-color: #f0f0f0;
+}
+
+/*****END FOOTER *****/
