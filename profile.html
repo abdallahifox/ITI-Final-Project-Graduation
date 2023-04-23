@@ -28,10 +28,115 @@
 
 <body>
     <!--Navigation Bar-->
+
+    <!--Navigation Draw Mobile-->
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title text-primary" id="offcanvasWithBothOptionsLabel">Mostaqel Clone</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="justify-content-end">
+                <ul class="navbar-nav text-center align-items-start">
+                    <li class="nav-item w-100 px-1">
+                        <a class="nav-link text-start py-2 px-3" aria-current="page" href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M11 19v-6H5v-2h6V5h2v6h6v2h-6v6h-2Z" />
+                            </svg>
+                            Add Project
+                        </a>
+                    </li>
+                    <li class="nav-item w-100 px-1">
+                        <a class="nav-link text-start py-2 px-3" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 20 20">
+                                <path fill="currentColor"
+                                    d="M15.5 7a2.5 2.5 0 0 1 2.495 2.335l.006.164v6a2.5 2.5 0 0 1-2.336 2.495l-.164.005h-6a2.5 2.5 0 0 1-2.495-2.336l-.005-.164v-6a2.5 2.5 0 0 1 2.336-2.495L9.5 7h6Zm0 1H9.502a1.5 1.5 0 0 0-1.493 1.355l-.007.144v6a1.5 1.5 0 0 0 1.356 1.493l.144.007h6a1.5 1.5 0 0 0 1.493-1.356L17 15.5v-6a1.5 1.5 0 0 0-1.356-1.493L15.5 8Zm-2.999 1a.5.5 0 0 1 .492.41L13 9.5v2.498h2.501a.5.5 0 0 1 .09.992l-.09.008H13l.001 2.5a.5.5 0 0 1-.992.09l-.008-.09L12 13H9.501a.5.5 0 0 1-.09-.992l.09-.008H12l.001-2.5a.5.5 0 0 1 .5-.5Zm.162-5.306l.048.158l.575 2.147H12.25l-.505-1.889a1.5 1.5 0 0 0-1.696-1.091l-.141.03l-5.796 1.554a1.5 1.5 0 0 0-1.091 1.695l.03.142l1.554 5.795A1.5 1.5 0 0 0 6 13.346v1a2.502 2.502 0 0 1-2.31-1.682l-.052-.17l-1.553-5.795a2.5 2.5 0 0 1 1.61-3.015l.158-.047l5.795-1.553a2.5 2.5 0 0 1 2.957 1.458l.057.152Z" />
+                            </svg>
+                            Find Project
+                        </a>
+                    </li>
+                    <li class="nav-item w-100 px-1">
+                        <a class="nav-link text-start py-2 px-3" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="m21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM13 20.01L4 11V4h7v-.01l9 9l-7 7.02z" />
+                                <circle cx="6.5" cy="6.5" r="1.5" fill="currentColor" />
+                            </svg>
+                            My Offers
+                        </a>
+                    </li>
+                    <li class="nav-item w-100 px-1">
+                        <a class="nav-link text-start py-2 px-3" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M6 22q-.825 0-1.413-.588T4 20V8q0-.825.588-1.413T6 6h2q0-1.65 1.175-2.825T12 2q1.65 0 2.825 1.175T16 6h2q.825 0 1.413.588T20 8v12q0 .825-.588 1.413T18 22H6Zm0-2h12V8h-2v2q0 .425-.288.713T15 11q-.425 0-.713-.288T14 10V8h-4v2q0 .425-.288.713T9 11q-.425 0-.713-.288T8 10V8H6v12Zm4-14h4q0-.825-.588-1.413T12 4q-.825 0-1.413.588T10 6ZM6 20V8v12Z" />
+                            </svg>
+                            Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav-item w-100 px-1">
+                        <a class="nav-link text-start py-2 px-3" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M9.775 12q-.9 0-1.5-.675T7.8 9.75l.325-2.45q.2-1.425 1.3-2.363T12 4q1.475 0 2.575.938t1.3 2.362l.325 2.45q.125.9-.475 1.575t-1.5.675h-4.45Zm0-2h4.45L13.9 7.6q-.1-.7-.637-1.15T12 6q-.725 0-1.263.45T10.1 7.6L9.775 10ZM12 10ZM4 20v-2.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20H4Zm2-2h12v-.8q0-.275-.138-.5t-.362-.35q-1.35-.675-2.725-1.012T12 15q-1.4 0-2.775.338T6.5 16.35q-.225.125-.363.35T6 17.2v.8Zm6 0Z" />
+                            </svg>
+                            Profile
+                        </a>
+                    </li>
+                    <li class="nav-item w-100 px-1">
+                        <a class="nav-link text-start py-2 px-3" aria-current="page" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M5 21q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h7v2H5v14h7v2H5Zm11-4l-1.375-1.45l2.55-2.55H9v-2h8.175l-2.55-2.55L16 7l5 5l-5 5Z" />
+                            </svg>
+                            Logout
+                        </a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--END Navigation Draw Mobile-->
     <nav class="navbar navbar-expand-lg bg-primary" id="nav">
         <div class="container">
             <a class="navbar-brand text-white" href="#">Mostaqel</a>
+
+            <!--Desktop Navigation-->
             <div class="navigation d-flex align-items-center">
+                <div class="justify-content-end d-lg-flex w-100 d-none">
+                    <ul class="navbar-nav text-end align-items-start">
+                        <li class="nav-item px-1">
+                            <a class="nav-link text-white py-2 px-3" aria-current="page" href="index.html">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M11 19v-6H5v-2h6V5h2v6h6v2h-6v6h-2Z" />
+                                </svg>
+                                Add Project
+                            </a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link text-white py-2 px-3" aria-current="page" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 20 20">
+                                    <path fill="currentColor"
+                                        d="M15.5 7a2.5 2.5 0 0 1 2.495 2.335l.006.164v6a2.5 2.5 0 0 1-2.336 2.495l-.164.005h-6a2.5 2.5 0 0 1-2.495-2.336l-.005-.164v-6a2.5 2.5 0 0 1 2.336-2.495L9.5 7h6Zm0 1H9.502a1.5 1.5 0 0 0-1.493 1.355l-.007.144v6a1.5 1.5 0 0 0 1.356 1.493l.144.007h6a1.5 1.5 0 0 0 1.493-1.356L17 15.5v-6a1.5 1.5 0 0 0-1.356-1.493L15.5 8Zm-2.999 1a.5.5 0 0 1 .492.41L13 9.5v2.498h2.501a.5.5 0 0 1 .09.992l-.09.008H13l.001 2.5a.5.5 0 0 1-.992.09l-.008-.09L12 13H9.501a.5.5 0 0 1-.09-.992l.09-.008H12l.001-2.5a.5.5 0 0 1 .5-.5Zm.162-5.306l.048.158l.575 2.147H12.25l-.505-1.889a1.5 1.5 0 0 0-1.696-1.091l-.141.03l-5.796 1.554a1.5 1.5 0 0 0-1.091 1.695l.03.142l1.554 5.795A1.5 1.5 0 0 0 6 13.346v1a2.502 2.502 0 0 1-2.31-1.682l-.052-.17l-1.553-5.795a2.5 2.5 0 0 1 1.61-3.015l.158-.047l5.795-1.553a2.5 2.5 0 0 1 2.957 1.458l.057.152Z" />
+                                </svg>
+                                Find Project
+                            </a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link text-white py-2 px-3" aria-current="page" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
+                                    <path fill="currentColor"
+                                        d="m21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM13 20.01L4 11V4h7v-.01l9 9l-7 7.02z" />
+                                    <circle cx="6.5" cy="6.5" r="1.5" fill="currentColor" />
+                                </svg>
+                                My Offers
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="notifay d-flex align-items-center mr-3">
                     <!--Drop Down Menu Notification Bell-->
                     <div class="dropdown mr-3 position-relative">
@@ -103,7 +208,7 @@
                     <div class="dropdown mr-1  position-relative">
                         <!--Notify Alert-->
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                           3
+                            3
                         </span>
                         <a class="nav-link text-white mr-1 " href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -140,113 +245,16 @@
                             </li>
                         </ul>
                     </div>
+                    
+                    <button class="btn" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                        <img src="https://avatars.hsoubcdn.com/d1651fcfe3cfdfeed676eb5a5271b958?s=128" class="rounded-circle" width="36" height="36" alt="">
+                    </button>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path fill="#fff" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
-                </svg>
-            </button>
-            </div>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav text-center align-items-center">
-                    <li class="nav-item px-1">
-                        <a class="nav-link text-white py-2 px-3" aria-current="page" href="index.html">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
-                                <path fill="currentColor" d="M11 19v-6H5v-2h6V5h2v6h6v2h-6v6h-2Z" />
-                            </svg>
-                            Add Project
-                        </a>
-                    </li>
-                    <li class="nav-item px-1">
-                        <a class="nav-link text-white py-2 px-3" aria-current="page" href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 20 20">
-                                <path fill="currentColor"
-                                    d="M15.5 7a2.5 2.5 0 0 1 2.495 2.335l.006.164v6a2.5 2.5 0 0 1-2.336 2.495l-.164.005h-6a2.5 2.5 0 0 1-2.495-2.336l-.005-.164v-6a2.5 2.5 0 0 1 2.336-2.495L9.5 7h6Zm0 1H9.502a1.5 1.5 0 0 0-1.493 1.355l-.007.144v6a1.5 1.5 0 0 0 1.356 1.493l.144.007h6a1.5 1.5 0 0 0 1.493-1.356L17 15.5v-6a1.5 1.5 0 0 0-1.356-1.493L15.5 8Zm-2.999 1a.5.5 0 0 1 .492.41L13 9.5v2.498h2.501a.5.5 0 0 1 .09.992l-.09.008H13l.001 2.5a.5.5 0 0 1-.992.09l-.008-.09L12 13H9.501a.5.5 0 0 1-.09-.992l.09-.008H12l.001-2.5a.5.5 0 0 1 .5-.5Zm.162-5.306l.048.158l.575 2.147H12.25l-.505-1.889a1.5 1.5 0 0 0-1.696-1.091l-.141.03l-5.796 1.554a1.5 1.5 0 0 0-1.091 1.695l.03.142l1.554 5.795A1.5 1.5 0 0 0 6 13.346v1a2.502 2.502 0 0 1-2.31-1.682l-.052-.17l-1.553-5.795a2.5 2.5 0 0 1 1.61-3.015l.158-.047l5.795-1.553a2.5 2.5 0 0 1 2.957 1.458l.057.152Z" />
-                            </svg>
-                            Find Project
-                        </a>
-                    </li>
-                    <li class="nav-item px-1">
-                        <a class="nav-link text-white py-2 px-3" aria-current="page" href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
-                                <path fill="currentColor"
-                                    d="m21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41s-.23-1.06-.59-1.42zM13 20.01L4 11V4h7v-.01l9 9l-7 7.02z" />
-                                <circle cx="6.5" cy="6.5" r="1.5" fill="currentColor" />
-                            </svg>
-                            My Offers
-                        </a>
-                    </li>
-                    <li class="nav-item px-1">
-                        <a class="nav-link text-white py-2 px-3" aria-current="page" href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
-                                <path fill="currentColor"
-                                    d="M6 22q-.825 0-1.413-.588T4 20V8q0-.825.588-1.413T6 6h2q0-1.65 1.175-2.825T12 2q1.65 0 2.825 1.175T16 6h2q.825 0 1.413.588T20 8v12q0 .825-.588 1.413T18 22H6Zm0-2h12V8h-2v2q0 .425-.288.713T15 11q-.425 0-.713-.288T14 10V8h-4v2q0 .425-.288.713T9 11q-.425 0-.713-.288T8 10V8H6v12Zm4-14h4q0-.825-.588-1.413T12 4q-.825 0-1.413.588T10 6ZM6 20V8v12Z" />
-                            </svg>
-                            Portfolio
-                        </a>
-                    </li>
-                    <!--Drop Down Menu-->
-                    <li class="nav-item dropdown d-md-block d-none">
-                        <a class="nav-link text-whitedropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <img src="https://avatars.hsoubcdn.com/d1651fcfe3cfdfeed676eb5a5271b958?s=128"
-                                class="rounded-circle " width="36" height="36" alt="">
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M9.775 12q-.9 0-1.5-.675T7.8 9.75l.325-2.45q.2-1.425 1.3-2.363T12 4q1.475 0 2.575.938t1.3 2.362l.325 2.45q.125.9-.475 1.575t-1.5.675h-4.45Zm0-2h4.45L13.9 7.6q-.1-.7-.637-1.15T12 6q-.725 0-1.263.45T10.1 7.6L9.775 10ZM12 10ZM4 20v-2.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20H4Zm2-2h12v-.8q0-.275-.138-.5t-.362-.35q-1.35-.675-2.725-1.012T12 15q-1.4 0-2.775.338T6.5 16.35q-.225.125-.363.35T6 17.2v.8Zm6 0Z" />
-                                    </svg>
-                                    Profile
-                                </a></li>
-                            <li><a class="dropdown-item" href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="m12 21l-1.45-1.3q-2.525-2.275-4.175-3.925T3.75 12.812Q2.775 11.5 2.388 10.4T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.3 0 2.475.55T12 4.75q.85-1 2.025-1.55t2.475-.55q2.35 0 3.925 1.575T22 8.15q0 1.15-.388 2.25t-1.362 2.412q-.975 1.313-2.625 2.963T13.45 19.7L12 21Zm0-2.7q2.4-2.15 3.95-3.688t2.45-2.674q.9-1.138 1.25-2.026T20 8.15q0-1.5-1-2.5t-2.5-1q-1.175 0-2.175.662T12.95 7h-1.9q-.375-1.025-1.375-1.688T7.5 4.65q-1.5 0-2.5 1t-1 2.5q0 .875.35 1.763t1.25 2.025q.9 1.137 2.45 2.675T12 18.3Zm0-6.825Z" />
-                                    </svg>
-                                    Favorait
-                                </a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
-                                        <path fill="currentColor"
-                                            d="M5 21q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h7v2H5v14h7v2H5Zm11-4l-1.375-1.45l2.55-2.55H9v-2h8.175l-2.55-2.55L16 7l5 5l-5 5Z" />
-                                    </svg>
-                                    Logout
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item px-1 d-block d-md-none ">
-                        <a class="nav-link text-white py-2 px-3" aria-current="page" href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                                <path fill="currentColor"
-                                    d="M9.775 12q-.9 0-1.5-.675T7.8 9.75l.325-2.45q.2-1.425 1.3-2.363T12 4q1.475 0 2.575.938t1.3 2.362l.325 2.45q.125.9-.475 1.575t-1.5.675h-4.45Zm0-2h4.45L13.9 7.6q-.1-.7-.637-1.15T12 6q-.725 0-1.263.45T10.1 7.6L9.775 10ZM12 10ZM4 20v-2.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20H4Zm2-2h12v-.8q0-.275-.138-.5t-.362-.35q-1.35-.675-2.725-1.012T12 15q-1.4 0-2.775.338T6.5 16.35q-.225.125-.363.35T6 17.2v.8Zm6 0Z" />
-                            </svg>
-                            Profile
-                        </a>
-                    </li>
-                    <li class="nav-item px-1 d-block d-md-none ">
-                        <a class="nav-link text-white py-2 px-3" aria-current="page" href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24">
-                                <path fill="currentColor"
-                                    d="M5 21q-.825 0-1.413-.588T3 19V5q0-.825.588-1.413T5 3h7v2H5v14h7v2H5Zm11-4l-1.375-1.45l2.55-2.55H9v-2h8.175l-2.55-2.55L16 7l5 5l-5 5Z" />
-                            </svg>
-                            Logout
-                        </a>
-                    </li>
-                    </li>
-                </ul>
             </div>
         </div>
+
     </nav>
     <!--End Navigation Bar-->
     <!-- START Contol Pannel-->

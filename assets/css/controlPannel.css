@@ -3,6 +3,12 @@
     width: 400px !important;
 }
 
+.dropdown-menu[data-bs-popper]{
+    right: 50%;
+    left: unset;
+    transform: translate(25%, 0px);
+}
+
 /*********NOTIFAY LIST**********/
 
 /*****START PROGRESS *****/
