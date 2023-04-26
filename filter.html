@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/dselect.min.css">
+  <title>Document</title>
+
+</head>
+
+<body>
+
+  <div class="projects-list">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+      <div class="page-title my-4">
+        <div class="h3">Open Projects</div>
+        <div class="dropdown projects-filter">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            latest
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Latest</a></li>
+            <li><a class="dropdown-item" href="#">Oldest</a></li>
+            <li><a class="dropdown-item" href="#">Most Applicants</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="filter-side">
+            <div class="search">
+              <div class="search-title mb-2 h5"> Search </div>
+              <div class="form-group">
+                <input class="form-control" type="text">
+              </div>
+            </div>
+            <div class="category">
+              <div class="category-title my-2 h5">Category</div>
+              <ul class="list-unstyled">
+                <li class="cat">
+                  <input type="checkbox" name="" id="">
+                  web developement
+                </li>
+                <li class="cat"><input type="checkbox" name="" id=""> mobile app</li>
+                <li class="cat"><input type="checkbox" name="" id=""> graphic design</li>
+                <li class="cat"><input type="checkbox" name="" id=""> AI</li>
+                <li class="cat"><input type="checkbox" name="" id=""> Copy Writing</li>
+              </ul>
+            </div>
+            <div class="skills">
+              <div class="skills-title my-2 h5">Skills</div>
+              <div class="form-group">
+                <select name="skills" id="skills" multiple>
+                  <option value="html">html</option>
+                  <option value="css">css</option>
+                  <option value="js">js</option>
+                  <option value="wordpress">Wordpress</option>
+                </select>
+              </div>
+            </div>
+            <div class="fund">
+              <div class="fund-title my-2 h5">Fund Slider</div>
+              <input type="range" class="form-range" value="0" id="fund-range" min="0" max="10000" step="500">
+              <div class="fund-minmax">
+                <div class="min" id="fund-min">0</div>
+                <div class="max" id="fund-max">10000</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="projects-list-side">
+            <div class="project">
+              <div class="project-title mt-3">
+                <a href="#">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A, atque.
+                </a>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary">
+                  <i class="fa-solid fa-plus"></i>
+                  same project
+                </button>
+                <div class="dropdown projects-filter">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-info ">
+                <i class="fa-solid fa-user"></i>
+                <span class="client-name">Mohammed</span>
+                <i class="fa-solid fa-timer"></i>
+                <span class="prject-date">20-50-2023</span>
+                <i class="fa-solid fa-ticket"></i>
+                <span class="project-offers">2</span>
+              </div>
+              <div class="project-excerpt mt-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque velit odio aliquid nemo
+                vero, laboriosam porro, minus cumque omni
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-title mt-3">
+                <a href="#">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A, atque.
+                </a>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary">
+                  <i class="fa-solid fa-plus"></i>
+                  same project
+                </button>
+                <div class="dropdown projects-filter">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-info ">
+                <i class="fa-solid fa-user"></i>
+                <span class="client-name">Mohammed</span>
+                <i class="fa-solid fa-timer"></i>
+                <span class="prject-date">20-50-2023</span>
+                <i class="fa-solid fa-ticket"></i>
+                <span class="project-offers">2</span>
+              </div>
+              <div class="project-excerpt mt-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque velit odio aliquid nemo
+                vero, laboriosam porro, minus cumque omni
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-title mt-3">
+                <a href="#">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A, atque.
+                </a>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary">
+                  <i class="fa-solid fa-plus"></i>
+                  same project
+                </button>
+                <div class="dropdown projects-filter">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-info ">
+                <i class="fa-solid fa-user"></i>
+                <span class="client-name">Mohammed</span>
+                <i class="fa-solid fa-timer"></i>
+                <span class="prject-date">20-50-2023</span>
+                <i class="fa-solid fa-ticket"></i>
+                <span class="project-offers">2</span>
+              </div>
+              <div class="project-excerpt mt-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque velit odio aliquid nemo
+                vero, laboriosam porro, minus cumque omni
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-title mt-3">
+                <a href="#">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A, atque.
+                </a>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary">
+                  <i class="fa-solid fa-plus"></i>
+                  same project
+                </button>
+                <div class="dropdown projects-filter">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-info ">
+                <i class="fa-solid fa-user"></i>
+                <span class="client-name">Mohammed</span>
+                <i class="fa-solid fa-timer"></i>
+                <span class="prject-date">20-50-2023</span>
+                <i class="fa-solid fa-ticket"></i>
+                <span class="project-offers">2</span>
+              </div>
+              <div class="project-excerpt mt-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque velit odio aliquid nemo
+                vero, laboriosam porro, minus cumque omni
+              </div>
+            </div>
+            <div class="project">
+              <div class="project-title mt-3">
+                <a href="#">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A, atque.
+                </a>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-primary">
+                  <i class="fa-solid fa-plus"></i>
+                  same project
+                </button>
+                <div class="dropdown projects-filter">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="project-info ">
+                <i class="fa-solid fa-user"></i>
+                <span class="client-name">Mohammed</span>
+                <i class="fa-solid fa-timer"></i>
+                <span class="prject-date">20-50-2023</span>
+                <i class="fa-solid fa-ticket"></i>
+                <span class="project-offers">2</span>
+              </div>
+              <div class="project-excerpt mt-3">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque velit odio aliquid nemo
+                vero, laboriosam porro, minus cumque omni
+              </div>
+            </div>
+
+          </div>
+
+          <div class="pagination my-4">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c845a933d6.js" crossorigin="anonymous"></script>
+  <script src="js/dselect.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
